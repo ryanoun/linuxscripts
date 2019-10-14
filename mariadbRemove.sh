@@ -4,6 +4,7 @@
 systemctl stop mariadb.service
 systemctl disable mariadb.service
 yum remove MariaDB -y
+yum remove mariadb -y
 rm -rf /var/lib/mysql/
 rm -rf /etc/my.cnf.d/
 rm -f /etc/my.cnf
